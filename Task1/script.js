@@ -14,6 +14,7 @@ function data_insert() {
             name_data: name,
             class_data: cls,
             roll_data: roll
+            
         }
         $.ajax({
             url: "submitme.php",
