@@ -14,7 +14,6 @@ function data_insert() {
             name_data: name,
             class_data: cls,
             roll_data: roll
-            
         }
         $.ajax({
             url: "submitme.php",
@@ -42,7 +41,7 @@ function data_fetch() {
         type: "POST",
         data: myCode,
         success: function (respond) {
-            // console.log(respond);
+            console.log(respond);
             $("#result").html(respond);
         }
     })
